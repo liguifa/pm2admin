@@ -1,0 +1,34 @@
+html, body, .pa-main {
+    /* background: #f0f2f5; */
+    height: 100%;
+    width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+
+.pa-app-loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pa-main-right {
+	width: 100%;
+}
+
+.pa-main-right-body {
+
+}
+
+.pa-main-right-body-title{
+	width: 100%;
+	height: 80px;
+	background: #ffffff;
+}

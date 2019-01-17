@@ -1,6 +1,6 @@
 import { message } from "antd";
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
-import { ILoadingAction, LOADING, LoadingStatus } from "./LoadingActions";
+import { ILoadingAction, LOADING, LoadingStatus } from "../modules/main";
 
 class HttpClass {
     private base: string = "http://rap2api.taobao.org/app/mock/124209"

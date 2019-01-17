@@ -1,7 +1,7 @@
-import { IAppState } from "../common";
 import { ILoginState } from "../modules/login";
+import { IMainState } from "../modules/main";
 
 export interface IState {
     Login: ILoginState,
-    App: IAppState
+    Main: IMainState
 }
